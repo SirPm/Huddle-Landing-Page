@@ -1,0 +1,161 @@
+@media screen and (max-width: 600px){
+
+
+    /**********************************
+        FIRST SECTION MEDIA QUERY
+    **********************************/
+    #first-section h1{
+        width: 60%;
+        margin: 0px auto;
+        margin-bottom: 30px;
+    }
+    #first-section p{
+        width: 70%;
+    }
+
+    /**********************************
+        SECOND SECTION MEDIA QUERY
+    **********************************/
+
+
+    #figures{
+        flex-direction: column;
+    }
+
+
+
+    /**********************************
+        THIRD SECTION MEDIA QUERY
+    **********************************/
+
+
+    #ts-top1{
+        background: url('images/bg-section-top-mobile-1.svg');
+        background-size: cover;
+        width: 100%;
+        height: 180px;
+    }
+    #ts-bottom1{
+        background: url('images/bg-section-bottom-mobile-1.svg');
+        background-size: cover;
+        width: 100%;
+        height: 100px;
+    }
+    #third-section-contents{
+        flex-direction: column-reverse;
+    }
+    #left-side-third-section{
+        width: 80%;
+        text-align: center;
+        margin: 0px auto;
+    }
+    #right-side-third-section img{
+        width: 50%;
+        margin-left: 120px;
+        margin-bottom: 60px;
+    }
+
+
+    /**********************************
+        FOURTH SECTION MEDIA QUERY
+    **********************************/
+
+    #fourth-section{
+        flex-direction: column;
+    }
+    #left-side-fourth-section img{
+        width: 90%;
+        margin-left: -90px;
+        margin-bottom: 50px;
+    }
+    #right-side-fourth-section{
+        width: 130%;
+        text-align: center;
+        margin-left: -190px;
+    }
+
+
+    /**********************************
+        FIFTH SECTION MEDIA QUERY
+    **********************************/
+
+    #ts-top2{
+        background: url('images/bg-section-top-mobile-2.svg');
+        height: 150px;
+        background-size: cover;
+    }
+    #ts-bottom2{
+        background: url('images/bg-section-bottom-mobile-2.svg');
+        height: 150px;
+        background-size: cover;
+    }
+    #fifth-section-contents{
+        flex-direction: column-reverse;
+    }
+    #left-side-fifth-section{
+        width: 80%;
+        text-align: center;
+        margin: 0px auto;
+    }
+    #right-side-fifth-section img{
+        width: 50%;
+        margin-left: 120px;
+        margin-bottom: 60px;
+    }
+
+
+    /**********************************
+        SIXTH SECTION MEDIA QUERY
+    **********************************/
+
+    #sixth-section{
+        width: 60%;
+        margin: 0px auto;
+    }
+
+
+    /**********************************
+        FOOTER MEDIA QUERY
+    **********************************/
+
+    #footer-top{
+        background: url('images/bg-footer-top-mobile.svg');
+        height: 50px;
+        background-size: cover;
+    }
+    #footer-contents{
+        flex-direction: column-reverse;
+        position: relative;
+    }
+    #left-side-footer{
+        margin: 0px auto;
+        width: 50%;
+        margin-top: 90px;
+    }
+    #right-side-footer{
+        margin: 0px auto;
+        width: 50%;
+    }
+    #right-side-footer h6{
+        font-size: 16px;
+    }
+    #footer-input{
+        width: 100%;
+        height: 35px;
+    }
+    #subscribe-btn{
+        margin-left: 135px;
+        margin-top: 15px;
+    }
+    .attribution{
+        padding-top: 30px;
+    }
+    #phone{
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+
+
+
+}

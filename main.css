@@ -1,0 +1,323 @@
+/***************************
+    GENERIC STYLES
+****************************/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/***************************
+    HEADER STYLES
+****************************/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+#header-btn{
+    border: 1px solid hsl(322, 100%, 66%);
+    background: transparent;
+    border-radius: 15px;
+    padding: 5px 20px;
+    color: hsl(322, 100%, 66%);
+    height: fit-content;
+}
+
+
+/***************************
+    MAIN BODY STYLES
+****************************/
+
+/***************************
+    FIRST SECTION STYLES
+****************************/
+
+    #first-section{
+        text-align: center;
+        margin-top: 150px;
+    }
+    #first-section h1{
+        color: hsl(192, 100%, 9%);
+    }
+    #first-section p{
+        width: 35%;
+        margin: 0px auto;
+        color: hsl(192, 100%, 9%);
+    }
+    #first-section-btn{
+        margin-top: 50px;
+        border: 1px solid hsl(322, 100%, 66%);
+        background: hsl(322, 100%, 66%);
+        border-radius: 30px;
+        padding: 20px 70px;
+        color: white;
+    }
+    
+
+/***************************
+    SECOND SECTION STYLES
+****************************/
+
+    #second-section img{
+        background-repeat: no-repeat;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        width: 50%;
+    }
+    #figures{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #communities img, #messages-sent img{
+        height: 20px;
+        width: 20px;
+        margin-left: 0px;
+    }
+    #communities{
+        position: relative;
+    }
+    #communities img{
+        position: absolute;
+        left: 5px;
+    }
+    #communities h1{
+        margin-top: 120px;
+        font-size: 50px;
+        color: hsl(192, 100%, 9%);
+    }
+    #communities h5{
+        color: #9B9898;
+        margin-top: -40px;
+    }
+
+    #messages-sent{
+        position: relative;
+    }
+    #messages-sent img{
+        position: absolute;
+        left: 5px;
+    }
+    #messages-sent h1{
+        margin-top: 120px;
+        font-size: 50px;
+        color: hsl(192, 100%, 9%);
+    }
+    #messages-sent h5{
+        color: #9B9898;
+        margin-top: -40px;
+    }
+
+/***************************
+    THIRD SECTION STYLES
+****************************/
+
+
+    #ts-top1{
+        background: url('images/bg-section-top-desktop-1.svg');
+        background-size: cover;
+        width: 100%;
+        height: 180px;
+    }
+    #ts-bottom1{
+        background: url('images/bg-section-bottom-desktop-1.svg');
+        background-size: cover;
+        width: 100%;
+        height: 100px;
+    }
+    #third-section{
+        margin-top: 50px;
+    }
+    #third-section-contents{
+        display: flex;
+        background-color: hsl(207, 100%, 98%);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #left-side-third-section{
+        width: 90%;
+        margin-left: 200px;
+        margin-right: 90px;
+        align-self: center;
+    }
+    #right-side-third-section img{
+        width: 50%;
+    }
+
+
+/***************************
+    FOURTH SECTION STYLES
+****************************/
+
+
+    #fourth-section{
+        display: flex;
+        margin-left: 200px;
+        margin-top: 130px;
+    }
+    #left-side-fourth-section img{
+        width: 70%;
+    }
+    #right-side-fourth-section{
+        width: 130%;
+        margin-right: 20px;
+        align-self: center;
+    }
+
+
+/***************************
+    FIFTH SECTION STYLES
+****************************/
+
+
+    #fifth-section{
+        margin-top: 120px;
+    }
+    #ts-top2{
+        background: url('images/bg-section-top-desktop-2.svg');
+        height: 150px;
+    }
+    #ts-bottom2{
+        background: url('images/bg-section-bottom-desktop-2.svg');
+        height: 150px;
+        background-size: cover;
+    }
+    #fifth-section-contents{
+        display: flex;
+        background-color: hsl(207, 100%, 98%);
+    }
+    #left-side-fifth-section{
+        width: 80%;
+        margin-right: 90px;
+        margin-left: 150px;
+        align-self: center;
+    }
+    #right-side-fifth-section img{
+        width: 50%;
+    }
+
+
+/***************************
+    SIXTH SECTION STYLES
+****************************/
+
+
+    #sixth-section{
+        text-align: center;
+        margin-top: 100px;
+    }
+    #sixth-section-btn{
+        border: 1px solid hsl(322, 100%, 66%);
+        background: hsl(322, 100%, 66%);
+        border-radius: 30px;
+        padding: 15px 65px;
+        color: white;
+    }
+
+
+/***************************
+    FOOTER STYLES
+****************************/    
+
+
+footer{
+    margin-top: 180px;
+}
+#footer-top{
+    background: url('images/bg-footer-top-desktop.svg');
+    height: 140px;
+    background-size: cover;
+}
+#footer-contents{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 30px;
+}
+.footer-p{
+    font-size: 12px;
+}
+#left-side-footer{
+    width: 22%;
+}
+#footer-logo{
+    display: flex;
+    /* margin-top: -40px; */
+    margin-bottom: -20px;
+}
+#footer-logo img{
+    filter: brightness(20);
+    height: 18px;
+}
+#footer-logo-msg{
+    align-self: center;
+    margin-right: 3px;
+}
+#left-side-footer h1{
+    color: white;
+    font-size: 30px;
+}
+#left-side-footer p{
+    color: white;
+}
+.phone-and-email{
+    display: flex;
+    /* justify-content: flex-start; */
+}
+.footer-svg{
+    align-self: center;
+    margin-right: 20px;
+}
+#social-media{
+    width: 40%;
+    display: flex;
+    margin-left: -10px;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 20px;
+}
+
+#right-side-footer{
+    width: 22%;
+}
+#right-side-footer h6, #right-side-footer p{
+    color: white;
+}
+#right-side-footer h6{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+#footer-input{
+    margin-top: 25px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#subscribe-btn{
+    height: 32px;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 5px;
+    padding: 5px 25px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+.attribution{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
