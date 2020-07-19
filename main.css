@@ -30,6 +30,10 @@ header{
     color: hsl(322, 100%, 66%);
     height: fit-content;
 }
+#header-btn:hover{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
 
 
 /***************************
@@ -59,6 +63,10 @@ header{
         border-radius: 30px;
         padding: 20px 70px;
         color: white;
+    }
+    #first-section-btn:hover{
+        background: transparent;
+        color: hsl(322, 100%, 66%);
     }
     
 
@@ -223,6 +231,10 @@ header{
         padding: 15px 65px;
         color: white;
     }
+    #sixth-section-btn:hover{
+        background: transparent;
+        color: hsl(322, 100%, 66%);
+    }
 
 
 /***************************
@@ -237,6 +249,7 @@ footer{
     background: url('images/bg-footer-top-desktop.svg');
     height: 140px;
     background-size: cover;
+    margin-bottom: -5px;
 }
 #footer-contents{
     display: flex;
@@ -311,9 +324,13 @@ footer{
     background-color: hsl(322, 100%, 66%);
     color: white;
 }
+#subscribe-btn:hover{
+    background-color: transparent;
+    color: hsl(322, 100%, 66%);
+}
 .attribution{
     font-size: 12px;
-    margin-top: 0px;
+    margin-top: -5px;
     margin-bottom: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
